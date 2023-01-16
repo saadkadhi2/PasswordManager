@@ -1,0 +1,25 @@
+.check-box:hover .box{
+    -fx-background-color: #2e2f2f;
+}
+.check-box:selected .mark{
+    -fx-background-color: #F1f184;
+
+}
+.check-box:focused {
+
+    -fx-focus-color: #F1f184;
+}
+.check-box .box{
+    -fx-background-insets: 1 1 1 1;
+    -fx-border-color: #2e2f2f;
+
+}
+.slider:hover .thumb{
+    -fx-background-color: #2e2f2f;
+}
+.slider:focused .thumb{
+    -fx-background-color: #2e2f2f;
+}
+.slider .track{
+    -fx-background-color: #7a7d7d;
+}
